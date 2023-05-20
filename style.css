@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 14px !important;
+}
+
+.parent-div{
+    display: flex;
+    background-color: #f3f4f5;
+    justify-content: space-between;
+    padding: 0 32px;
+    height: 32px;
+    border-bottom: 1px solid #f3f3f3 ;
+}
+
+.child-div{
+    display: flex;
+    margin: 0 -20px 0px 0px;
+    padding: 8px;
+    color: #6f7277;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gchild-div{
+    padding-left: 20px;
+}
+
+#downloadapp{
+    margin:0 0 0 4px;
+    font-size: 12px;
+}
